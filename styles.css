@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background-color: rgb(8, 27, 44);
+}
+
+.nav-brand {
+    float: left;
+}
+
+.brand {
+    width: 120px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dropdown {
+    float: left;
+    margin-left: 100px;
+}
+
+.set-btn {
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.dropdown-menu {
+    background-color: rgb(3, 33, 73);
+}
+
+.dropdown-item {
+    color: white;
+}
+
+.dropdown-toggle {
+    background-color: rgb(3, 33, 73);
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+}
+
+.player-search {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.searchbar-input {
+    width: 400px;
+    height: 30px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgb(24, 35, 59);
+    color: rgb(179, 174, 174);
+}
+
+::placeholder {
+    color: rgb(179, 174, 174);
+}
+
+.searchbar-icon {
+    margin-left: -5px;
+    margin-top: -5px;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(8, 27, 44);
+    border: solid solid solid none;
+}
+
+.btn-download {
+    background-color: rgb(13, 129, 175);
+    color: white;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-download:hover {
+    background-color: rgb(22, 121, 121);
+}
+
+.nav-item {
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+}
+
+.nav-link:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: rgb(97, 49, 7);
+}
+
+.nav-link {
+    color: rgb(179, 174, 174);
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-ds {
+    border-style: solid none solid none;
+    border-width: 1px;
+    border-color: rgb(78, 76, 76);
+    background-color: rgb(24, 35, 59);
+}
+
+.space-none {
+    width: 200px;
+}
+
+.home {
+    padding-top: 100px;
+}
+
+.home-header {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+h2 {
+    color: rgb(161, 81, 34);
+    padding-bottom: 20px;
+}
+
+p {
+    color: rgb(183, 206, 224);
+    width: 600px;
+    padding-bottom: 25px;
+}
+
+.btn-download-home {
+    background-color: rgb(13, 129, 175);
+    color: white;
+    width: 220px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+.btn-download-home:hover {
+    background-color: rgb(22, 121, 121);
+}
+
+.mx-auto {
+    padding: 50px 0px 50px 0px;
+}
+
+.home-app {
+    padding-bottom: 80px;
+}
+
+.app-infor {
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    height: 400px;
+}
+
+.app-infor h2 {
+    width: 80%;
+}
+
+.app-infor p {
+    width: 80%;
+}
+
+.app-infor a {
+    width: 80%;
+    margin-left: 45px;
+}
+
+.app-infor a:hover {
+    color: aqua;
+    text-decoration: none;
+}
+
+.divider1 {
+    padding-bottom: 30px;
+    border-top-style: solid;
+    border-color: rgb(183, 206, 224);
+    border-width: 1px;
+}
+
+.dark {
+    background-color: rgb(9, 35, 58);
+}
+
+.app-features {
+    background-color: rgb(53, 88, 121);
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    width: 20%;
+}
+
+.app-features h4 {
+    padding: 15px 0px 15px 0px;
+}
+
+.app-features p {
+    width: 100%;
+}
+
+.divider {
+    padding-bottom: 30px;
+    border-top-style: solid;
+    border-color: rgb(8, 27, 44);
+    border-width: 1px;
+}
+
+.tutorial {
+    text-align: center;
+}
+
+.tutorial-title h2 {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.app-tutorial {
+    width: 30%;
+}
+
+.app-tutorial h4 {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.app-tutorial p {
+    width: 80%;
+}
+
+.footer {
+    text-align: center;
+    background-color: #0d283d;
+}
+
+.footer-links {
+    padding-top: 30px;
+}
+
+.footer-links a {
+    color: #b7cee0;
+    margin: 30px;
+}
+
+.footer-links a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-about {
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+}
+
+.divider2 {
+    padding-bottom: 30px;
+    border-top-style: solid;
+    border-color: rgb(183, 206, 224);
+    border-width: 1px;
+    margin-top: 30px;
+}

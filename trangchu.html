@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/Hellion_TFT_icon.png">
+    <title>TFT Meta Tier List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="TrangChu">
+        <nav class="nav toolbar navbar-expand-lg navbar-dark">
+            <div class="nav-wrapper container">
+                <a class="nav-brand active" href="#">
+                    <img class="brand" src="https://rerollcdn.com/brand.svg" alt="TFTactics" />
+                </a>
+
+                <div class="set-btn dropdown">
+                    <button type="button" class="dropdown-toggle btn btn-secondary" id="Set5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Set 5
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="Set5">
+                        <a class="dropdown-item active" href="#">Set 5</a>
+                    </div>
+                </div>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <div class="searchbar player-search">
+                        <div class="dropdown">
+                            <button tyle="button" class="dropdown-toggle btn btn-secondary" id="NA" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                NA
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="Set5">
+                                <a class="dropdown-item" href="#">BR</a>
+                                <a class="dropdown-item" href="#">EUNE</a>
+                                <a class="dropdown-item" href="#">EUW</a>
+                                <a class="dropdown-item" href="#">JP</a>
+                                <a class="dropdown-item" href="#">KR</a>
+                                <a class="dropdown-item" href="#">LAN</a>
+                                <a class="dropdown-item" href="#">LAS</a>
+                                <a class="dropdown-item" href="#">NA</a>
+                                <a class="dropdown-item " href="# ">OCE</a>
+                                <a class="dropdown-item " href="# ">TR</a>
+                                <a class="dropdown-item " href="# ">RU</a>
+                            </div>
+                        </div>
+
+                        <input type="text " class="searchbar-input " placeholder="Search Summoner Name... " />
+                        <img src="https://rerollcdn.com/search-icon.svg " class="searchbar-icon " alt="searchicon " />
+                    </div>
+                </div>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </nav>
+
+        <nav class="nav d-none d-flex navbar navbar-expand-lg ">
+            <div class="collapse navbar-collapse nav-ds " id="collapsibleNavId">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link active " aria-current="page ">Team Comps</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link ">Meta Report</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link ">Champions</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link ">Tier Lists</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link ">Item Builder</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link ">Team Builder</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link ">Database</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a href=" " class="nav-link " aria-disabled="true " tabindex="-1 ">Patch Nodes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="home container-fluid ">
+            <div class="row ">
+                <div class="container ">
+                    <div class="col-12 home-header ">
+                        <h1>Your Companion for Teamfight Tactics</h1>
+                        <h2>Become the Next Little Legend</h2>
+                        <p>
+                            Play smarter and climb the ranks in TFT with constantly updated item guides, team recommendations, and deep champion stat analysis. Now available in-game!
+                        </p>
+
+                        <div class="cta "></div>
+                        <a class="cta-btn " href=" ">
+                            <button type="button " class="btn-download-home ">
+                                <b>DOWNLOAD THE APP</b>
+                            </button>
+                        </a>
+                    </div>
+
+                    <div class="mx-auto img-fluid ">
+                        <img class="img-fluid " src="images/TFT_Fates.png " style="height: 350px; width: 1500px " />
+                    </div>
+
+                    <!-- <div class="col-12 home-app ">
+                        <div class="row ">
+                            <div class="col-12 col-lg-6 col-md-12 app-image left ">
+                                <img src="https://rerollcdn.com/home/coach-full.jpg " class="image-full-l " />
+                                <img src="https://rerollcdn.com/home/coach-crop.jpg " class="image-crop-l " />
+                            </div>
+
+                            <div class="col-12 col-lg-6 app-infor right ">
+                                <h2 style="color: white ">Personal Coach</h2>
+                                <p>
+                                    Get in-depth analysis after every match to see what you did right and which areas to improve on.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 home-app ">
+                        <div class="row ">
+                            <div class="col-12 col-lg-6 app-infor left ">
+                                <h2 style="color: white ">Team Comps</h2>
+                                <p>
+                                    Build stronger teams by planning out your comp or choosing one of our hand-picked ones that excel in the current meta.
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-lg-6 app-image right ">
+                                <img src="https://rerollcdn.com/home/teams-full.jpg " class="image-full-r " />
+                                <img src="https://rerollcdn.com/home/teams-crop.jpg " class="image-crop-r " />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 home-app ">
+                        <div class="row ">
+                            <div class="col-12 col-lg-6 app-image left ">
+                                <img src="https://rerollcdn.com/home/past-full.jpg " class="image-full-l " />
+                                <img src="https://rerollcdn.com/home/past-full.jpg " class="image-crop-l3 " />
+                            </div>
+
+                            <div class="col-12 col-lg-6 app-infor right ">
+                                <h2 style="color: white ">Match History</h2>
+                                <p>
+                                    Review your past matches, standings, and tendencies. Find out what works for you!
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    <div class="col-12 home-app ">
+                        <div class="row ">
+                            <div class="col-12 col-lg-6 app-infor left ">
+                                <h2 style="color: white ">Riot Games Compliant</h2>
+                                <p>
+                                    TFTactics is in sync with Riot’s terms of service and will not result in players getting banned or otherwise sanctioned.
+                                </p>
+                                <div class="divider1 "></div>
+                                <a href="#">
+                                    How Overwolf Keeps Users Safe from Bans
+                                </a>
+                                <br />
+                                <a href="#">
+                                    Riot's Stance on Third Party Apps
+                                </a>
+                            </div>
+
+                            <div class="col-12 col-lg-6 app-image right ">
+                                <img src="https://rerollcdn.com/home/Ezreal.png " class="ezreal " />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row dark ">
+                <div class="container ">
+                    <div class="col-12 home-app features ">
+                        <div class="row ">
+                            <div class="col-12 features-title ">
+                                <h2 style="color: white; text-align: center; padding-top: 80px ">
+                                    Additional Features
+                                </h2>
+                            </div>
+
+                            <div class="col-12 col-lg app-features ">
+                                <h4 style="color: white ">Board Tracker</h4>
+                                <div class="divider "></div>
+                                <p>
+                                    Easily keep track of your own board as the game evolves and pin a final team composition.
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-lg app-features ">
+                                <h4 style="color: white ">Champion Stats</h4>
+                                <div class="divider "></div>
+                                <p>
+                                    Full stats for every level including damage, abilities, range, and other key statistics.
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-lg app-features ">
+                                <h4 style="color: white ">Round Tracker</h4>
+                                <div class="divider "></div>
+                                <p>
+                                    Check your win/loss ratio and performance against specific opponents every match.
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-lg app-features ">
+                                <h4 style="color: white ">Patch Notes</h4>
+                                <div class="divider "></div>
+                                <p>
+                                    Stay up to date with the ever changing meta with fully detailed patch notes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="container ">
+                    <div class="col-12 home-app tutorial ">
+                        <div class="row ">
+                            <div class="col-12 tutorial-title ">
+                                <h2>Using TFTactics in 3 Steps</h2>
+                            </div>
+
+                            <div class="col-12 col-lg-4 app-tutorial ">
+                                <div class="col-6 tutorial-image ">
+                                    <img src="https://rerollcdn.com/home/dl-icon.png " class="dl-icon " alt=" " />
+                                </div>
+                                <h4>Download TFTactics</h4>
+                                <p>You can get it securely for free using the button below</p>
+                            </div>
+
+                            <div class="col-12 col-lg-4 app-tutorial ">
+                                <div class="col-6 tutorial-image ">
+                                    <img src="https://rerollcdn.com/home/Install.png " class="install " alt=" " />
+                                </div>
+                                <h4>Install the App</h4>
+                                <p>
+                                    A short installation will enable TFTactics on your machine
+                                </p>
+                            </div>
+
+                            <div class="col-12 col-lg-4 app-tutorial ">
+                                <div class="col-6 tutorial-image ">
+                                    <img src="https://rerollcdn.com/home/tft.svg " class="tft " alt=" " />
+                                </div>
+                                <h4>Start Your Match</h4>
+                                <p>TFTactics automatically launches when your match starts</p>
+                            </div>
+
+                            <a class="cta-btn " href=" ">
+                                <button type="button " class="btn-download-home ">
+                                    <b>DOWNLOAD THE APP</b>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer ">
+            <div class="container ">
+                <div class="footer-links ">
+                    <a href="# ">Privacy Policy</a>
+                    <a href="# ">Contact</a>
+                    <a href="# ">Partners Program</a>
+                    <a href="# ">Manage FFCookie Settings</a>
+                    <a href="# ">Set Skins</a>
+                </div>
+
+                <div class="divider2 "></div>
+
+                <p class="footer-about ">
+                    TFTACTICS.GG isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot
+                    Games, Inc. League of Legends © Riot Games, Inc.
+                </p>
+                <p class="footer-copyright ">© TFTactics 2021</p>
+        </footer>
+        </div>
+</body>
+
+</html>
